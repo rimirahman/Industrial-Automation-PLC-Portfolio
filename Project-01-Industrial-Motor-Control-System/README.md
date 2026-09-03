@@ -10,6 +10,15 @@ The project was developed and functionally tested in a PLC training/simulation e
 
 ---
 
+## Project Files
+
+- 📄 [Full Engineering Report](./Project_01_Industrial_Motor_Control_System.pdf)
+- ⚙️ [RSLogix 500 PLC Program](./PROJECT1.RSS)
+
+> The `.RSS` file contains the complete RSLogix 500 ladder-logic project. RSLogix 500 or compatible Rockwell Automation software is required to open the native PLC project file.
+
+---
+
 ## Key Features
 
 - Automatic and Manual operating modes
