@@ -381,6 +381,16 @@ This project demonstrates several important controls-engineering concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational batch mixing sequence. Version 2 develops that foundation into a more structured industrial batch process with clearly defined operating states, equipment permissives, sequence control, monitoring, and fault handling.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_07_Version_1.pdf)
+
+Version 2 expands the original application with Auto/Manual operating modes, System Ready and permissive logic, a structured Fill A → Fill B → Mix → Drain sequence, timed process stages, batch completion and counting, timeout supervision, master-fault handling, controlled recovery, and manual hold-to-run maintenance controls.
+
+---
+
 ## Industrial Relevance
 
 Batch mixing systems are widely used in:
