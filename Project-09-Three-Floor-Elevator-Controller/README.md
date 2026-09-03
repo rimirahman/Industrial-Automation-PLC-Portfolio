@@ -366,6 +366,16 @@ This project demonstrates several important controls-engineering concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational three-floor elevator movement and floor-selection logic. Version 2 develops that foundation into a more structured industrial-style elevator control system with stored requests, position tracking, motion authorization, door sequencing, diagnostics, and controlled recovery.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_09_Version_1.pdf)
+
+Version 2 expands the original application with stored floor requests, Current Floor tracking, Auto/Manual operating modes, separate automatic and manual direction-command layers, centralized Motion Permissive logic, door-cycle sequencing, travel-time supervision, direction-conflict diagnostics, master-fault handling, and controlled fault recovery.
+
+---
+
 ## Industrial Relevance
 
 Although this is not a certified passenger-elevator controller, the control concepts are applicable to:
