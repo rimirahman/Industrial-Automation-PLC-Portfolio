@@ -264,8 +264,18 @@ This project demonstrates several important controls-engineering concepts:
 - Rechecking critical conditions at the physical-output level
 - Designing controlled fault-recovery paths
 
+
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational temperature-based heating and cooling control logic. Version 2 develops that foundation into a more structured industrial temperature-control system.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_04_Version_1.pdf)
+
+Version 2 expands the original application with Auto/Manual operating modes, centralized permissives, System Ready logic, separate heating-demand and equipment-command layers, controlled heater startup, independent cooling control, high-temperature monitoring, delayed alarming, sensor-failure diagnostics, master-fault handling, and final heater output interlocks.
+
+---
 ## Industrial Relevance
 
 Temperature-control systems are common in:
