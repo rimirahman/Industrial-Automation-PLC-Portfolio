@@ -14,7 +14,7 @@ The project was developed and functionally tested in a PLC training/simulation e
 
 ## Project Files
 
-- 📄 [Full Engineering Report](./Project_07_Industrial_Batch_Mixing_System.pdf)
+- 📄 [Full Engineering Report](./Project_07_version2-Industrial_Batch_Mixing_System.pdf)
 - ⚙️ [RSLogix 500 PLC Program](./PV72.RSS)
 
 > The `.RSS` file contains the native RSLogix 500 ladder-logic project. RSLogix 500 or compatible Rockwell Automation software is required to open the PLC program.
