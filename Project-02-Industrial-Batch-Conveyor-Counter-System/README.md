@@ -245,6 +245,16 @@ This project demonstrates several important controls-engineering concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+This project was originally developed as a foundational PLC motor-control application and was later upgraded into the Version 2 industrial implementation.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_02_Version_1.pdf)
+
+Version 2 expands the original application with a more structured industrial control architecture, operating modes, permissives, interlocks, diagnostics, fault handling, and controlled recovery.
+
+---
+
 ## Industrial Relevance
 
 The concepts demonstrated in this project are applicable to:
