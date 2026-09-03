@@ -313,6 +313,16 @@ This project demonstrates several important controls-engineering concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational conveyor-based bottle processing sequence. Version 2 develops that foundation into a more structured industrial bottle filling and capping system.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_05_Version_1.pdf)
+
+Version 2 expands the original application with Auto/Manual operating modes, centralized machine permissives, a latched Machine Run Request, System Ready authorization, internal conveyor-request logic, retained filling and capping process states, separate timed process stages, completed-production counting, master-fault handling, controlled recovery, and structured operator indication.
+
+---
+
 ## Industrial Relevance
 
 Bottle filling and capping sequences are widely used in:
