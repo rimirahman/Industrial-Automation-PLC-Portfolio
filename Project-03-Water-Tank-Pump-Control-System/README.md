@@ -240,6 +240,17 @@ This project demonstrates several important controls-engineering principles:
 - Consolidating abnormal conditions into a master-fault architecture
 - Tracing faults from upstream operating conditions through the complete pump-command path
 
+
+---
+
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational water-tank level and pump-control logic. Version 2 develops that foundation into a more structured industrial pump-control system.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_03_Version_1.pdf)
+
+Version 2 expands the original application with Auto/Manual operating modes, centralized operating permissives, System Ready logic, separate process-demand and pump-command layers, delayed pump startup, level indication, dry-run monitoring, master-fault handling, and controlled shutdown and recovery.
+
 ---
 
 ## Industrial Relevance
