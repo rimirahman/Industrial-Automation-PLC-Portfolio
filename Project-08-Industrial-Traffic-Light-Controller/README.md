@@ -258,6 +258,16 @@ This project demonstrates several transferable industrial controls concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational timed traffic-light sequence. Version 2 develops that foundation into a more structured industrial-style traffic control application using explicit operating modes, state-based sequencing, safety-oriented overrides, diagnostics, and controlled operation.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_08_Version_1.pdf)
+
+Version 2 expands the original application with an integer-based traffic state machine, Auto/Manual/Night operating modes, pedestrian request handling, Emergency All Red operation, structured state transitions, output control based on defined traffic states, diagnostic monitoring, master-fault handling, and controlled recovery.
+
+---
+
 ## Industrial Relevance
 
 Although implemented as a traffic-controller project, the architecture is directly transferable to industrial automation systems involving:
