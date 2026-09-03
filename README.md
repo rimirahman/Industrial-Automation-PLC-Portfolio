@@ -1,134 +1,102 @@
 # Industrial Automation & PLC Controls Engineering Portfolio
 
-## Overview
+A hands-on controls engineering portfolio demonstrating the progressive development of Allen-Bradley PLC applications from foundational control logic to structured industrial automation systems.
 
-This portfolio demonstrates hands-on development of PLC-based industrial control systems using Allen-Bradley programming concepts and RSLogix 500.
+The portfolio contains **10 PLC projects**, each developed first as a foundational Version 1 application and then upgraded into a Version 2 industrial implementation with increased emphasis on operating modes, permissives, interlocks, diagnostics, fault handling, maintainability, verification, and commissioning.
 
-The projects progress from fundamental PLC control applications to more advanced industrial automation systems incorporating automatic and manual operating modes, permissives, interlocks, sequencing, timers, counters, diagnostics, fault handling, process monitoring, and controlled recovery.
+## Technical Focus
 
-Each project was developed, tested, and documented with emphasis on practical controls-engineering principles, maintainability, troubleshooting, and safe machine behavior.
-
----
-
-## Technical Skills Demonstrated
-
-- PLC Programming and Ladder Logic
-- Allen-Bradley / RSLogix 500
-- Digital Input and Output Control
-- Motor and Conveyor Control
-- Auto / Manual Operating Modes
-- Industrial Sequencing
-- Permissives and Interlocks
-- Timers and Counters
-- Process Monitoring
-- Sensor Diagnostics
-- Alarm and Fault Logic
-- Fault Reset and Recovery
-- Batch Process Control
-- Safety-Oriented Control Logic
-- PLC Testing and Commissioning
-- Industrial Controls Documentation
-
----
+- Allen-Bradley PLC programming
+- RSLogix 500 / MicroLogix control architecture
+- Ladder Logic development
+- Auto/Manual operating modes
+- Machine permissives and interlocks
+- Sequential machine and process control
+- Timer and counter applications
+- Fault detection and diagnostics
+- Equipment feedback verification
+- Controlled shutdown and recovery
+- Production counting and monitoring
+- PLC testing and commissioning
 
 ## PLC Projects
 
-| # | Project | Key Engineering Concepts |
+| # | Project | Main Engineering Focus |
 |---|---|---|
-| 01 | Motor Start Delay | Motor control, timing, start/stop logic |
-| 02 | Box Counter | Product detection, counting, reset logic |
-| 03 | Water Tank Control | Level control, pump sequencing, interlocks |
-| 04 | Temperature Control | Process monitoring and temperature-based control |
-| 05 | Conveyor Control | Conveyor sequencing and material handling |
-| 06 | Bottle Filling System | Automated sequence and filling control |
-| 07 | Batch Mixing System | Batch sequencing and process control |
-| 08 | Traffic Light Controller | State-based sequential control |
-| 09 | Elevator Control System | Multi-state sequencing, door control, direction logic, diagnostics |
-| 10 | Industrial Packaging & Sorting Station | Auto/Manual control, permissives, package tracking, reject handling, diagnostics, fault recovery |
+| 01 | [Industrial Motor Control System](./Project-01-Industrial-Motor-Control-System) | Auto/Manual control, permissives, startup delay, feedback verification, fault handling, runtime monitoring |
+| 02 | [Industrial Batch Conveyor Counter System](./Project-02-Industrial-Batch-Conveyor-Counter-System) | Configurable batch counting, conveyor sequencing, jam detection, batch completion |
+| 03 | [Water Tank Pump Control System](./Project-03-Water-Tank-Pump-Control-System) | Level-based pump control, Auto/Manual operation, dry-run monitoring, fault handling |
+| 04 | [Industrial Temperature Control System](./Project-04-Industrial-Temperature-Control-System) | Heating/cooling control, process-value monitoring, sensor diagnostics, overtemperature protection |
+| 05 | [Industrial Bottle Filling and Capping System](./Project-05-Industrial-Bottle-Filling-and-Capping-System) | Conveyor indexing, filling and capping sequencing, production counting, machine-state control |
+| 06 | [Industrial Conveyor Sorting System](./Project-06-Industrial-Conveyor-Sorting-System) | Product tracking, retained classification, automatic reject handling, reject confirmation, jam diagnostics |
+| 07 | [Industrial Batch Mixing System](./Project-07-Industrial-Batch-Mixing-System) | Fill → Mix → Drain sequencing, process-state control, timeout supervision, manual maintenance controls |
+| 08 | [Industrial Traffic Light Controller](./Project-08-Industrial-Traffic-Light-Controller) | Integer state machine, Auto/Manual/Night modes, pedestrian sequence, emergency operation, diagnostics |
+| 09 | [Three-Floor Elevator Controller](./Project-09-Three-Floor-Elevator-Controller) | Stored floor requests, position tracking, motion permissives, door sequencing, travel supervision |
+| 10 | [Industrial Packaging and Sorting Station](./Project-10-Industrial-Packaging-and-Sorting-Station) | Integrated machine architecture, reject verification, diagnostics, batch control, quality monitoring, production statistics |
 
----
+## Engineering Development Progression
 
-## Engineering Approach
+Each project demonstrates a deliberate **Version 1 → Version 2 engineering progression**.
 
-The projects were developed with increasing emphasis on industrial control-system design rather than only achieving basic functional operation.
+**Version 1** focuses on establishing the fundamental PLC control sequence and core machine functionality.
 
-Later project versions incorporate engineering practices such as:
+**Version 2** develops the same application toward a more industrial control architecture by incorporating appropriate features such as:
 
-- Defined machine operating states
-- Start permissives and system-ready conditions
-- Automatic and manual control
-- Equipment interlocking
-- Sensor validation and diagnostics
-- Fault detection and master fault handling
-- Controlled shutdown and restart behavior
-- Sequence verification
-- Production and batch monitoring
-- Structured commissioning and functional testing
+- Auto/Manual operating modes
+- Run-request and System Ready logic
+- Centralized permissives
+- Equipment and process interlocks
+- State-based sequencing
+- Feedback verification
+- Sensor and equipment diagnostics
+- Timeout monitoring
+- Master-fault handling
+- Controlled recovery
+- Production monitoring
+- Maintenance-oriented manual controls
 
----
+The Version 1 engineering documentation is retained within each project so that the development progression can be reviewed directly.
 
-## Featured Project
+## Project Documentation
 
-### Project 10 — Industrial Packaging & Sorting Station
+Each project folder contains:
 
-The final project integrates multiple controls-engineering concepts into a simulated industrial packaging and sorting application.
+- **README.md** — project overview, architecture, control strategy, I/O, sequence, diagnostics, testing, and engineering lessons
+- **Version 2 Engineering PDF** — detailed project documentation and ladder-logic review
+- **PLC Program (.RSS)** — RSLogix 500 project file where included
+- **Version-1/** — original foundational project documentation for comparison with the industrial upgrade
 
-The system includes:
+## Engineering Skills Demonstrated
 
-- Automatic and manual operating modes
-- System-ready and conveyor permissive logic
-- Package detection and processing
-- Good-package production counting
-- Reject detection and sequencing
-- Reject confirmation and verification
-- Reject-cycle timeout monitoring
-- Quality-warning logic
-- Batch completion and controlled batch reset
-- Sensor diagnostics
-- Master fault handling
-- Safety-related shutdown and restart prevention
-- Manual conveyor and diverter control
-- Controlled fault reset and recovery
+Across the portfolio, the projects demonstrate practical experience with:
 
-The system was functionally tested through multiple normal-operation, abnormal-condition, diagnostic, safety, and recovery scenarios.
+- Translating process requirements into PLC control logic
+- Separating operator requests, machine states, commands, permissives, and physical outputs
+- Designing sequential control systems
+- Developing equipment interlocks and operating permissives
+- Implementing fault detection and diagnostic logic
+- Designing controlled machine recovery behavior
+- Tracking process and production information
+- Testing normal, abnormal, and fault conditions
+- Reviewing PLC behavior against defined commissioning scenarios
+- Documenting control-system architecture and engineering rationale
 
----
+## Tools & Technologies
 
-## Development Environment
-
-- Allen-Bradley PLC programming concepts
-- RSLogix Micro Starter Lite / RSLogix 500
-- MicroLogix 1100 architecture
+- Allen-Bradley / Rockwell Automation PLC concepts
+- RSLogix 500
+- MicroLogix 1100
+- Ladder Logic
+- Digital and analog I/O concepts
+- Timers, counters, integer registers, internal bits, comparison and data instructions
 - PLC simulation and functional testing
-- Ladder Logic (LAD)
+
+## Portfolio Objective
+
+This portfolio was developed to demonstrate practical controls-engineering capability beyond basic ladder-logic programming.
+
+The projects emphasize the engineering decisions required to make automated equipment safer, more diagnosable, maintainable, testable, and suitable for structured industrial operation.
 
 ---
 
-## Repository Structure
-
-Each project folder will contain project-specific documentation such as:
-
-- Project overview
-- Control requirements
-- I/O definitions
-- Ladder logic
-- Sequence of operation
-- Interlocks and permissives
-- Fault and diagnostic strategy
-- Testing / commissioning results
-- Engineering design explanation
-
----
-
-## Current Development
-
-This portfolio is being expanded with additional industrial automation competencies, including HMI development and industrial communications.
-
----
-
-## Author
-
-**Sharmin Rahman**
-
-M.Eng. Electrical Engineering  
-Industrial Automation & Controls Engineering
+**Career Focus:** Controls Engineering | Industrial Automation | PLC Programming | Electrical Controls | SCADA
