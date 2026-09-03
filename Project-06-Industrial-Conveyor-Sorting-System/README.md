@@ -471,6 +471,16 @@ This project demonstrates several important industrial controls concepts:
 
 ---
 
+## Version 1 → Version 2 Development
+
+The original Version 1 project established the foundational conveyor and product-sorting sequence. Version 2 develops that foundation into a more structured industrial conveyor sorting system with improved product tracking, reject handling, verification, and diagnostics.
+
+- 📄 [View Original Version 1 Project](./Version-1/Project_06_Version_1.pdf)
+
+Version 2 expands the original application with Auto/Manual operating modes, centralized permissives, System Ready logic, retained product tracking and classification, automatic reject sequencing, physical reject confirmation, production counting, conveyor jam monitoring, master-fault handling, and controlled recovery.
+
+---
+
 ## Industrial Relevance
 
 Industrial conveyor sorting systems are used in:
