@@ -15,7 +15,7 @@ Testing was performed in a PLC/simulation environment.
 ## Project Files
 
 - 📄 [Full Engineering Report](./Project_08_Version_2_Industrial_Traffic_Light_Controller.pdf)
-- ⚙️ [RSLogix 500 PLC Program](./PV8.RSS)
+- ⚙️ [RSLogix 500 PLC Program](./PV8M.RSS)
 
 > The `.RSS` file contains the native RSLogix 500 ladder-logic project. RSLogix 500 or compatible Rockwell Automation software is required to open the PLC program.
 
